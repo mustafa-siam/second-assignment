@@ -256,7 +256,7 @@ line-height: 20px;
 border: 0px;
 border-radius: 8px;
 background: rgba(19, 19, 24, 0.05);
-padding: 15px 200px 15px 20px;
+padding: 15px 25% 15px 20px;
 margin-bottom: 16px;}
 #thy-details{color: rgba(19, 19, 24, 0.3);
     font-family: 'Mulish', sans-serif;
@@ -266,9 +266,9 @@ margin-bottom: 16px;}
     border-radius: 8px;
     background: rgba(19, 19, 24, 0.05);
     border: 0px;
-    padding: 15px 200px 15px 20px;
+    padding: 15px 25% 15px 20px;
 margin-bottom: 44px;}
-.newsletter-form .btn-primary{padding: 15px 117px;}
+.newsletter-form .btn-primary{padding: 15px 15%;}
 .newsletter{margin:1px 90px;}
 .newsletter-description{
     border: 1px solid rgb(255, 84, 0);
@@ -323,9 +323,6 @@ gap: 70px;}
     .newsletter{margin: 30px 10px;}
     .newsletter-banner{flex-direction: column;}
     .newsletter-description{padding: 24px;}
-    #thy-details{ padding: 15px 40% 15px 20px;}
-    #thy-name{ padding: 15px 40% 15px 20px;}
-    .newsletter-form .btn-primary{padding: 15px 30%;}
 
 }
 footer{margin-top: 90px;
