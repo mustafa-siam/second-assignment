@@ -13,20 +13,25 @@
                 <div class="title-bar"> 
                     <img src="./Images/Group 40071 (2).png" alt="">          
                     <h3 class="nav-title">liverty <span>Travel</span></h3>
-                </div>       
-            <div>
-                <ul>
-                    <li class="home">Home</li>
-                    <li>Packages</li>
-                    <li>Testimonial</li>
-                    <li>Blog</li>
-                    <li>Contact</li>
-                </ul>
-            </div>      
+                </div>
+                    <button id="menu-toggle">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>                             
+                    <ul>
+                        <li class="home"><a href="#">Home</a></li>
+                        <li><a href="#">Packages</a></li>
+                        <li><a href="#">Testimonial</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>      
         </nav>
     <div class="explore-location">
         <h1 class="location-title">Explore Your Travel</h1>
-        <p class="location-details">Dolor sit amet consectetur. Nullam suspendisse vitae ultricies dolor adipiscing. In et odio enim ac quis sapien urna eu phasellus.</p>
+        <div class="location-detail">
+            <p class="location-details">Dolor sit amet consectetur. Nullam suspendisse vitae ultricies dolor adipiscing. In et odio enim ac quis sapien urna eu phasellus.</p>
+        </div>
         <div class="find">
             <div class="find-out">
                 <button class="button1">Where go</button>
@@ -39,7 +44,7 @@
     </header>
     <main>
 <section class="popular-tour">
-    <div>
+    <div class="tour-description">
         <h3 class="tour-title">Our Popular Tours</h3>
         <p class="tour-details">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.</p>
         <ul class="tour-list">
@@ -51,45 +56,49 @@
             ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. Id bibendum nunc senectus semper tincidunt. </p>
         <button class="btn-primary">Read More</button>
     </div>
-    <div><img src="./Images/Rectangle 4.png" alt=""></div>
+    <div><img src="./Images/Rectangle 4.png" alt="" class="tour-img"></div>
 </section>
 <section class="your-destination">
     <h3 class="destination-title">Choose Your Destination</h3>
-    <p class="destination-details">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.</p>
+    <div class="location-detail">
+        <p class="destination-details">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.</p>
+    </div>
 </section>
 <section class="destination-banner">
-        <div class="destination-pic1">
+        <div class="destination-pic">
             <img src="./Images/Rectangle 5.png" alt="" class="destination-img">
             <h3 class="destination-name1">Maldives</h3>
         </div>
-        <div class="destination-pic2">
+        <div class="destination-pic">
             <img src="./Images/Rectangle 8.png" alt="" class="destination-img">
             <h3 class="destination-name1">Indonesia</h3>
         </div>
-        <div class="destination-pic3">
-            <img src="./Images/Rectangle 6.png" alt="" class="destination-img">
+        <div class="destination-pic">
+            <img src="./Images/Rectangle 6.png" alt="" class="destination-img1">
             <h3 class="destination-name2">Srilanka</h3>
         </div>
-        <div class="destination-pic4">
+        <div class="destination-pic">
             <img src="./Images/Rectangle 7.png" alt="" class="destination-img">
             <h3 class="destination-name3">North America</h3>
         </div>
-        <div class="destination-pic5">
-            <img src="./Images/Rectangle 9.png" alt="" class="destination-img">
+        <div class="destination-pic">
+            <img src="./Images/Rectangle 9.png" alt="" class="destination-img2">
             <h3 class="destination-name4">Kashmir</h3>
         </div>
-        <div class="destination-pic6">
+        <div class="destination-pic">
             <img src="./Images/Rectangle 11.png" alt="" class="destination-img">
             <h3 class="destination-name5">Bangladesh</h3>
         </div>
-        <div class="destination-pic7">
+        <div class="destination-pic">
             <img src="./Images/Rectangle 10.png" alt="" class="destination-img">
             <h3 class="destination-name1">Bandarban</h3>
         </div>
 </section>
 <section class="choose-reason">
     <h3 class="reason-title">Why Choose Us</h3>
-    <p class="reason-details">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.</p>
+    <div class="location-detail">
+        <p class="reason-details">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.</p>
+    </div>
     <div class="service-type">
         <div class="service-related1">
             <img src="./Images/Group.png" alt="" class="service-img">
@@ -97,7 +106,7 @@
             <p class="service-details">Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. </p>
         </div>
         <div class="service-related2">
-            <img src="./Images/map 1.png" alt="" class="service-img">
+            <img src="./Images/Group 27.png" alt="" class="service-img">
             <h4 class="service-title">World Class Service</h4>
             <p class="service-details">Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. </p>
         </div>
@@ -110,9 +119,9 @@
 </section>
 <section class="newsletter">
     <div class="newsletter-banner">
-        <div>
+    <div class="newsletter-description">
     <h4 class="newsletter-title">Newsletter</h4>
-    <p class="news-details">Get your daily dose of travel news & tips. Sign <br> up today!</p> 
+    <p class="news-details">Get your daily dose of travel news & tips. Sign up today!</p> 
             <form action="" class="newsletter-form">
                 <input type="text" placeholder="Enter your name" id="thy-name"><br>
                 <input type="text" placeholder="Enter your email" id="thy-details"><br>
@@ -131,7 +140,10 @@
             <img src="./Images/Group 40071 (2).png" alt="">          
             <h3 class="nav-title">liverty <span>Travel</span></h3>
         </div>  
-        <p class="footer-details">Lorem ipsum dolor sit amet consectetur. Nulla sit viverra morbi vitae blandit orci potenti vulputate. Leo erat maecenas vitae elementum ultricies nullam. </p>
+        <div class="location-detail">
+            <p class="footer-details">Lorem ipsum dolor sit amet consectetur. Nulla sit viverra morbi vitae blandit orci potenti vulputate. Leo erat maecenas vitae elementum ultricies nullam. </p>
+        </div>
+        
         <div class="footer-banner">
             <img src="./Images/1.png" alt="">
             <img src="./Images/2.png" alt="">
