@@ -298,7 +298,7 @@ gap: 70px;}
 
 /*end of main section*/
 
-@media screen and (max-width:576px){
+@media screen and (max-width:600px){
     .popular-tour{margin: 10px;
     flex-direction:column ;}
     .tour-description{width: auto;}
@@ -312,10 +312,6 @@ gap: 70px;}
     .destination-img1{max-width: none;
         width: 100%;
     margin-bottom: 40px; }
-
-
-
-
     .destination-title,.reason-title{font-size:20px ;
         line-height: 25px;}
     .reason-details{font-size: 14px;
@@ -327,9 +323,9 @@ gap: 70px;}
     .newsletter{margin: 30px 10px;}
     .newsletter-banner{flex-direction: column;}
     .newsletter-description{padding: 24px;}
-    #thy-details{ padding: 15px 150px 15px 20px;}
-    #thy-name{ padding: 15px 150px 15px 20px;}
-    .newsletter-form .btn-primary{padding: 15px 137px;}
+    #thy-details{ padding: 15px 40% 15px 20px;}
+    #thy-name{ padding: 15px 40% 15px 20px;}
+    .newsletter-form .btn-primary{padding: 15px 30%;}
 
 }
 footer{margin-top: 90px;
